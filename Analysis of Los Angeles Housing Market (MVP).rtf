@@ -1,0 +1,22 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 ## Analysis of Los Angeles Housing Market (MVP)\
+\
+Can we predict housing prices using housing features and surrounding socio-economic and geographic data? \
+\
+This analysis seeks to build a linear regression model to predict housing prices in Los Angeles. Data on houses sold in the previous three weeks was scraped from [Zillow](zillow.com) and geographic socio-economic data was scraped from [City-Data.com](city-data.com).\
+\
+To explore the data, we construct a pair plot and observe the strongest correlation between a home\'92s square footage and price. The image below shows a reliable positive correlation.\
+\
+![Relationship between Home\'92s Square Footage and Sale Price](https://github.com/lizzynaameh/cde_linear_regression/blob/main/scatter.png)\
+\
+After doing a train-validate-test split using just house features (sq. footage, number of bedrooms, number of bathrooms, parking, etc), and running a basic linear regression, we found an R^2 value of just 0.49 on our training set an a 0.29 on our validation set. \
+\
+This suggests that a predictive model will require additional features, such as regional socio-economic data. This additional City Data will be included in subsequent linear models.}
