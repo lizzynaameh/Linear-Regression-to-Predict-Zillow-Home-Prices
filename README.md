@@ -22,5 +22,5 @@ Our analysis leverages BeautifulSoup and Selenium for web scraping, Numpy and Pa
 
 #### MVP Goal:
 
-- Our initial goal will be to produce a base linear regression model using a train-test-validate split and only features from the home. Then, we will analyze the diagnostic plots to evaluate our models and inform feature selection, feature engineering, and model selection.
+Our initial goal will be to produce a base linear regression model using a train-test-validate split and only features from the home. Then, we will analyze the diagnostic plots to evaluate our models and inform feature selection, feature engineering, and model selection.
 
